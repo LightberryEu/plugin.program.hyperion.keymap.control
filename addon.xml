@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.hyperion.keymaphyp" name="Hyperion KeymapEditor" version="0.1.0" provider-name="tociek">
+    <requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>linux</platform>
+		<summary lang="en">Hyperion keymap editor</summary>
+		<description lang="en">The name says it all...</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum>https://github.com/LightberryEu/plugin.program.hyperion.screenshot/issues</forum>
+		<source>https://github.com/LightberryEu/plugin.program.hyperion.screenshot</source>
+		<email>jacek@lightberry.eu</email>
+	</extension>
+</addon>
